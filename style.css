@@ -1,0 +1,104 @@
+.cell {
+    cursor: pointer;
+    font-size: 20pt;;
+    border-radius: 50px;
+    border: 6px solid #00ADB5;
+    background-color: #393E46;
+    text-align: center;
+  }
+.cell:hover {
+  background-color: #2e333a;
+}
+.cell:active{  
+  background-color:#5a5f66;
+}
+.num {
+  border-radius: 10px;
+  height: 40px;
+  width: 80%;
+  padding-right: auto;
+  /*
+  width: 60%;
+  margin-top: -30px;
+  margin-bottom: 40px;*/
+}
+input {
+  height:40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 30pt;
+  color: #EEEEEE;
+  /*background-color: #393E46;*/
+  background: none;
+  border:none;
+}
+input:focus {
+  outline:none;
+}
+body {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: center;
+}
+container {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 400px;
+}
+.devider {
+  display: grid;
+  grid-template-columns: 150px 250px;
+  height: auto;
+  margin-bottom: 30px;
+  
+}
+p {
+  color: #EEEEEE;
+  user-select: none; /* Standard syntax */
+}
+html {
+  background-color: #222831;
+}
+.task_number {
+  text-align: right;
+  color: #EEEEEE;
+  margin: auto;
+  margin-right: 10px;
+  font-size: 28pt;
+  padding: 0px;
+  
+  
+}
+
+.toast-notification{
+  margin: auto;
+  transition: opacity 1s;
+  min-width: 100px;
+  height: 35px;
+  font-size: 16pt;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: rgb(0, 0, 0) 0px 7px 29px 0px;
+  right: 0;
+  background-color: #00ADB5;
+  position:fixed;
+  /* display:flex;
+  flex-direction:row; */
+  user-select: none; /* Standard syntax */
+}
+
+.message-container{
+  width:80%;
+  padding: 5px;
+  color:white;
+}
+
+.close-notification{
+  width:20%;
+}
