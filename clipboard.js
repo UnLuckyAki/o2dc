@@ -38,10 +38,10 @@ class Toast {
 
 function theFunction(option) {
 
-    var task_num = document.getElementById('task_number').value
+    var task_num = document.getElementById('task_number').value;
     if (!task_num)
     {
-      task_num = 'XXXXXX'
+      task_num = 'XXXXXX';
     }
 
     switch (option)

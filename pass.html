@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Отбивки STP</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylePass.css">
+    </head>
+    <body>
+        <p><a href="index.html">Отбивки</a></p>
+        <container>
+            <div class="devider">
+                <div class="cell company">
+                    <input id="task_company" placeholder="Компания">
+                </div>
+            </div>
+            
+            <div class="devider date">
+                <p class="task_number">Дата</p>
+                <div class="cell num">
+                    <input id="fromdate" color-scheme = "white"; type="date">
+                </div>
+            </div>
+            <div class="devider date">
+                <p class="task_number">До</p>
+                <div class="cell num">
+                    <input id="todate" color-scheme = "white"; type="date">
+                </div>
+            </div>
+            
+            <div class="cell copy" onclick="theFunction('companydate')">
+                <p>Скопировать</p>
+            </div>
+            <div class="cell clear" onclick="theFunction('clear')">
+                <p>Отчистить</p>
+            </div>
+        </container>
+            <script src="pass.js"></script>
+    </body>
+</html>
