@@ -57,7 +57,7 @@ class Toast {
         if ((!todate) || (fromdate==todate)) {
             date = fromdate.slice(0,6)+fromdate.slice(8,10);
         } else {
-            date=fromdate.slice(0,6)+fromdate.slice(8,10) +'-'+ todate.slice(0,5)+todate.slice(8,9);
+            date=fromdate.slice(0,6)+fromdate.slice(8,10) +'-'+ todate.slice(0,6)+todate.slice(8,10);
         }
         navigator.clipboard.writeText('ПРОПУСК В ЦОД | '+date+' | '+company);
         new Toast();
