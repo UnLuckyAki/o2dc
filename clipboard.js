@@ -58,9 +58,12 @@ function theFunction(option) {
       case 'transfered':
         navigator.clipboard.writeText('Здравствуйте!\nИнформация принята и передана ответственным специалистам.');
         break;
-        case 'allow':
-          navigator.clipboard.writeText('Здравствуйте!\nЕсли у Вас не осталось больше вопросов, можем ли мы закрыть данную заявку?');
-          break;
+      case 'allow':
+        navigator.clipboard.writeText('Здравствуйте!\nЕсли у Вас не осталось больше вопросов, можем ли мы закрыть данную заявку?');
+        break;
+      case 'pass':
+        navigator.clipboard.writeText('Здравствуйте!\nПропуск оформлен.');
+        break;
     }
     new Toast();
 }
