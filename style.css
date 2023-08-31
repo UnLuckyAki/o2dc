@@ -12,6 +12,9 @@
 .cell:active{  
   background-color:#5a5f66;
 }
+.pass {
+    border: 6px solid #e3e5e7;
+}
 .num {
   border-radius: 10px;
   height: 40px;
