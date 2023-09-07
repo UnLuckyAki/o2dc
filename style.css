@@ -15,6 +15,11 @@
 .pass {
     border: 6px solid #e3e5e7;
 }
+.mamaev:hover {
+  background-position: center;
+  background-size: contain;
+  background-image: url("123.jpg")
+}
 .num {
   border-radius: 10px;
   height: 40px;
