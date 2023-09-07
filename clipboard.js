@@ -64,6 +64,9 @@ function theFunction(option) {
       case 'pass':
         navigator.clipboard.writeText('Здравствуйте!\nПропуск оформлен.');
         break;
+      case 'mamaev':
+        navigator.clipboard.writeText('Здравствуйте!\nОборудование было перезагружено, а заявка закрыта.');
+        break;
     }
     new Toast();
 }
