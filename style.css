@@ -15,7 +15,7 @@
 .pass {
     border: 6px solid #e3e5e7;
 }
-.mamaev:hover {
+.mamaev:active {
   background-position: center;
   background-size: contain;
   background-image: url("123.jpg")
